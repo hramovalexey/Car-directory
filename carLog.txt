@@ -1,0 +1,71 @@
+2020-10-24 18:34:04.181 Connected to database AutoDB as postgres
+2020-10-24 18:34:04.473 Transaction succeeded. Query to DB: INSERT INTO auto_list VALUES('!AA100H96', 'Datsun', 'Белый', 2016);
+2020-10-24 18:34:04.491 Transaction succeeded. Query to DB: DELETE FROM auto_list WHERE number = '!AA100H96'
+2020-10-24 18:34:04.493 Transaction succeeded. Query to DB: SELECT * FROM auto_list WHERE color = 'Белый' AND model = 'Datsun' AND year = '2016' ORDER BY color, model, year;
+2020-10-25 12:15:17.891 Connected to database AutoDB as postgres
+2020-10-25 12:15:17.923 Transaction succeeded. Query to DB: INSERT INTO auto_list VALUES('A020BE96', 'Wolksvagen Tiguan', 'Зеленый', 2016);
+2020-10-25 12:15:18.007 Transaction succeeded. Query to DB: SELECT * FROM auto_list;
+2020-10-25 12:15:18.076 Transaction succeeded. Query to DB: SELECT * FROM auto_list WHERE color = 'Белый' AND model = 'Datsun' AND year = '2016' ORDER BY color, model, year;
+2020-10-25 12:15:18.108 Transaction succeeded. Query to DB: DELETE FROM auto_list WHERE number = 'A020BE96'
+2020-10-25 12:18:19.044 Connected to database AutoDB as postgres
+2020-10-25 12:18:19.059 Transaction succeeded. Query to DB: INSERT INTO auto_list VALUES('A020BE96', 'Wolksvagen Tiguan', 'Зеленый', 2016);
+2020-10-25 12:18:19.191 Transaction failed. Query to DB: INSERT INTO auto_list VALUES('A020BE96', 'Wolksvagen Tiguan', 'Зеленый', 2016);. Error: org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "pk_auto_list"
+  Подробности: Ключ "(number)=(A020BE96)" уже существует.
+2020-10-25 12:18:19.213 Transaction succeeded. Query to DB: SELECT * FROM auto_list;
+2020-10-25 12:18:19.229 Transaction succeeded. Query to DB: SELECT * FROM auto_list WHERE color = 'Белый' AND model = 'Datsun' AND year = '2016' ORDER BY color, model, year;
+2020-10-25 12:18:19.229 Transaction succeeded. Query to DB: DELETE FROM auto_list WHERE number = 'A020BE96'
+2020-10-25 12:22:37.697 Connected to database AutoDB as postgres
+2020-10-25 12:22:37.712 Transaction succeeded. Query to DB: INSERT INTO auto_list VALUES('A020BE96', 'Wolksvagen Tiguan', 'Зеленый', 2016);
+2020-10-25 12:22:37.744 Transaction failed. Query to DB: INSERT INTO auto_list VALUES('A020BE96', 'Wolksvagen Tiguan', 'Зеленый', 2016);. Error: org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "pk_auto_list"
+  Подробности: Ключ "(number)=(A020BE96)" уже существует.
+2020-10-25 12:22:48.118 Transaction succeeded. Query to DB: SELECT * FROM auto_list;
+2020-10-25 12:22:48.125 Transaction succeeded. Query to DB: SELECT * FROM auto_list WHERE color = 'Белый' AND model = 'Datsun' AND year = '2016' ORDER BY color, model, year;
+2020-10-25 12:22:48.172 Transaction succeeded. Query to DB: DELETE FROM auto_list WHERE number = 'A020BE96'
+2020-10-25 12:22:53.468 Connected to database AutoDB as postgres
+2020-10-25 12:22:53.488 Transaction succeeded. Query to DB: INSERT INTO auto_list VALUES('A020BE96', 'Wolksvagen Tiguan', 'Зеленый', 2016);
+2020-10-25 12:22:53.518 Transaction failed. Query to DB: INSERT INTO auto_list VALUES('A020BE96', 'Wolksvagen Tiguan', 'Зеленый', 2016);. Error: org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "pk_auto_list"
+  Подробности: Ключ "(number)=(A020BE96)" уже существует.
+2020-10-25 12:23:01.779 Transaction succeeded. Query to DB: SELECT * FROM auto_list;
+2020-10-25 12:23:01.779 Transaction succeeded. Query to DB: SELECT * FROM auto_list WHERE color = 'Белый' AND model = 'Datsun' AND year = '2016' ORDER BY color, model, year;
+2020-10-25 12:23:21.57 Connected to database AutoDB as postgres
+2020-10-25 12:23:21.586 Transaction succeeded. Query to DB: INSERT INTO auto_list VALUES('A020BE96', 'Wolksvagen Tiguan', 'Зеленый', 2016);
+2020-10-25 12:23:21.608 Transaction failed. Query to DB: INSERT INTO auto_list VALUES('A020BE96', 'Wolksvagen Tiguan', 'Зеленый', 2016);. Error: org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "pk_auto_list"
+  Подробности: Ключ "(number)=(A020BE96)" уже существует.
+2020-10-25 12:23:21.608 Transaction succeeded. Query to DB: SELECT * FROM auto_list;
+2020-10-25 12:23:21.623 Transaction succeeded. Query to DB: SELECT * FROM auto_list WHERE color = 'Белый' AND model = 'Datsun' AND year = '2016' ORDER BY color, model, year;
+2020-10-25 12:23:21.623 Transaction succeeded. Query to DB: DELETE FROM auto_list WHERE number = 'A020BE96'
+2020-10-25 12:36:45.956 Connected to database AutoDB as postgres
+2020-10-25 12:36:45.978 Transaction succeeded. Query to DB: INSERT INTO auto_list VALUES('A020BE96', 'Wolksvagen Tiguan', 'Зеленый', 2016);
+2020-10-25 12:36:45.994 Transaction failed. Query to DB: INSERT INTO auto_list VALUES('A020BE96', 'Wolksvagen Tiguan', 'Зеленый', 2016);. Error: org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "pk_auto_list"
+  Подробности: Ключ "(number)=(A020BE96)" уже существует.
+2020-10-25 12:36:45.994 Transaction succeeded. Query to DB: SELECT * FROM auto_list;
+2020-10-25 12:36:46.009 Transaction succeeded. Query to DB: SELECT * FROM auto_list WHERE color = 'Белый' AND model = 'Datsun' AND year = '2016' ORDER BY color, model, year;
+2020-10-25 12:36:46.009 Transaction succeeded. Query to DB: DELETE FROM auto_list WHERE number = 'A020BE96'
+2020-10-25 12:37:33.35 Connected to database AutoDB as postgres
+2020-10-25 12:37:33.372 Transaction succeeded. Query to DB: INSERT INTO auto_list VALUES('A020BE96', 'Wolksvagen Tiguan', 'Зеленый', 2016);
+2020-10-25 12:37:33.388 Transaction failed. Query to DB: INSERT INTO auto_list VALUES('A020BE96', 'Wolksvagen Tiguan', 'Зеленый', 2016);. Error: org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "pk_auto_list"
+  Подробности: Ключ "(number)=(A020BE96)" уже существует.
+2020-10-25 12:37:33.388 Transaction succeeded. Query to DB: SELECT * FROM auto_list;
+2020-10-25 12:37:33.388 Transaction succeeded. Query to DB: SELECT * FROM auto_list WHERE color = 'Белый' AND model = 'Datsun' AND year = '2016' ORDER BY color, model, year;
+2020-10-25 12:37:33.404 Transaction succeeded. Query to DB: DELETE FROM auto_list WHERE number = 'A020BE96'
+2020-10-25 12:38:00.671 Connected to database AutoDB as postgres
+2020-10-25 12:38:00.687 Transaction succeeded. Query to DB: INSERT INTO auto_list VALUES('A020BE96', 'Wolksvagen Tiguan', 'Зеленый', 2016);
+2020-10-25 12:38:00.702 Transaction failed. Query to DB: INSERT INTO auto_list VALUES('A020BE96', 'Wolksvagen Tiguan', 'Зеленый', 2016);. Error: org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "pk_auto_list"
+  Подробности: Ключ "(number)=(A020BE96)" уже существует.
+2020-10-25 12:38:00.725 Transaction succeeded. Query to DB: SELECT * FROM auto_list;
+2020-10-25 12:38:00.725 Transaction succeeded. Query to DB: SELECT * FROM auto_list WHERE color = 'Белый' AND model = 'Datsun' AND year = '2016' ORDER BY color, model, year;
+2020-10-25 12:38:00.725 Transaction succeeded. Query to DB: DELETE FROM auto_list WHERE number = 'A020BE96'
+2020-10-25 12:38:13.552 Connected to database AutoDB as postgres
+2020-10-25 12:38:13.568 Transaction succeeded. Query to DB: INSERT INTO auto_list VALUES('A020BE96', 'Wolksvagen Tiguan', 'Зеленый', 2016);
+2020-10-25 12:38:13.584 Transaction failed. Query to DB: INSERT INTO auto_list VALUES('A020BE96', 'Wolksvagen Tiguan', 'Зеленый', 2016);. Error: org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "pk_auto_list"
+  Подробности: Ключ "(number)=(A020BE96)" уже существует.
+2020-10-25 12:38:13.584 Transaction succeeded. Query to DB: SELECT * FROM auto_list;
+2020-10-25 12:38:13.599 Transaction succeeded. Query to DB: SELECT * FROM auto_list WHERE color = 'Белый' AND model = 'Datsun' AND year = '2016' ORDER BY color, model, year;
+2020-10-25 12:38:13.599 Transaction succeeded. Query to DB: DELETE FROM auto_list WHERE number = 'A020BE96'
+2020-10-25 12:41:34.943 Connected to database AutoDB as postgres
+2020-10-25 12:41:34.958 Transaction succeeded. Query to DB: INSERT INTO auto_list VALUES('A020BE96', 'Wolksvagen Tiguan', 'Зеленый', 2016);
+2020-10-25 12:41:34.974 Transaction failed. Query to DB: INSERT INTO auto_list VALUES('A020BE96', 'Wolksvagen Tiguan', 'Зеленый', 2016);. Error: org.postgresql.util.PSQLException: ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "pk_auto_list"
+  Подробности: Ключ "(number)=(A020BE96)" уже существует.
+2020-10-25 12:41:34.99 Transaction succeeded. Query to DB: SELECT * FROM auto_list;
+2020-10-25 12:41:34.99 Transaction succeeded. Query to DB: SELECT * FROM auto_list WHERE color = 'Белый' AND model = 'Datsun' AND year = '2016' ORDER BY color, model, year;
+2020-10-25 12:41:34.99 Transaction succeeded. Query to DB: DELETE FROM auto_list WHERE number = 'A020BE96'

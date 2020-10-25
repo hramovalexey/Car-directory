@@ -1,0 +1,10 @@
+INSERT INTO auto_list VALUES('K734XH96', 'Datsun', 'Белый', 2015);
+INSERT INTO auto_list VALUES('O987BT97', 'ВАЗ2101', 'Синий', 1970);
+INSERT INTO auto_list VALUES('E001KX60', 'BMW X5', 'Зеленый', 2001);
+INSERT INTO auto_list VALUES('P564AT55', 'Kia rio', 'Коричневый', 2020);
+INSERT INTO auto_list VALUES('K236PC78', 'Audi A3', 'Морская волна', 2018);
+INSERT INTO auto_list VALUES('E256MC78', 'Hundai Sonata', 'Белый', 2018);
+INSERT INTO auto_list VALUES('X658TP78', 'Деревянная телега', '');
+INSERT INTO auto_list VALUES('E547AE65', 'Scoda superb', 'Желтый', 2020);
+INSERT INTO auto_list VALUES('O598BT97', 'ВАЗ2101', 'Вишневый', 1980);
+INSERT INTO auto_list VALUES('X123MA97', 'Geely Emgrand', 'Серый', 2015);
