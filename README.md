@@ -24,10 +24,13 @@ SQL запрос для создания нужной таблицы см. в ф
 
 public AutoList()
 
+
 -	добавление авто.
 str - Json запрос вида:
 { "number" : "A020BE96", "model" : "Wolksvagen Tiguan", "color" : "Зеленый", "year" : 2016}
+
 public void addCar(String str)
+
 
 - удаление авто. str - номер автомобиля
 public void deleteCar(String str)
@@ -36,19 +39,27 @@ public void deleteCar(String str)
  str - Json запрос вида
  { "model" : "Datsun", "color" : "Белый", "year" : 2016}
 в примере будут выведены все белые Datsun 2016го года и отсортированы в порядке model, color, year
+
 public void listCar(String str)
 
+
 - Текущий список авто без параметров
-    public void listCar()
+
+public void listCar()
+
 
 - Показать статистику:
     - Количество записей
     - Дата первой записи
     - Дата последней записи
-    public void getStats()
+ 
+ public void getStats()
+
 
 - Вывести лог
+
 public void printLog()
+
 
 3)	Краткое описание структуры
 Доступ к API осуществляется путем вызова методов экземпляров класса AutoList.java (см. п.2)
